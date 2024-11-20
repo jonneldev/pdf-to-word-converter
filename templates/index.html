@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to Word Converter</title>
+    <style>
+        #loading-message {
+            display: none;
+            color: blue;
+            font-weight: bold;
+        }
+        #status-message {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>PDF to Word Converter</h1>
+    <form id="upload-form">
+        <input type="file" id="pdf-file" name="file" />
+        <button id="convert-btn" type="submit">Convert PDF to DOCX</button>
+    </form>
+    <p id="status-message"></p>
+    <p id="loading-message" style="display:none;">Loading...</p>
+    
+    <script src="../static/script.js"></script> <!-- Link to the script.js -->
+</body>
+</html>
